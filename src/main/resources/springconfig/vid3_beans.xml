@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+       
+    <!-- Bean object for first student -->       
+	<bean id = "student1" class = "springioc.vid03.Student">
+		<property name = "id" value = "1"/>
+		<property name = "name" value = "Student 1"/>
+	</bean>
+	
+	<!-- Bean object for second student --> 
+	<bean id = "student2" class = "springioc.vid03.Student">
+		<property name = "id" value = "2"/>
+		<property name = "name" value = "Student 2"/>
+	</bean>
+	
+</beans>
